@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>Kookie</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Kookie</h1>
+      </header>
+      <nav>
+        <a id="weekly-recipe" href="mailto:reipe123@gmail.com" target="_blank"
+          >Sign up for weekly recipes!</a
+        >
+
+        <a class="nav-bar" href="#" onclick="changeContent('home')">Home</a>
+        <a class="nav-bar" href="#" onclick="changeContent('Cookie')">Cookie</a>
+        <a
+          class="nav-bar"
+          id="float-right"
+          href="#"
+          onclick="changeContent('Submit-Recipe')"
+          >Submit Recipe</a
+        >
+      </nav>
+      <main>
+        <div id="content">
+          <h2>Featured Recipes</h2>
+          <section class="featured-recipes">
+            <div class="recipe">
+              <img src="cookie1.jpeg" alt="Chocolate Chip Cookies" />
+              <h3>Chocolate Chip Cookies</h3>
+            </div>
+            <div class="recipe">
+              <img src="cookie2.jpeg" alt="Oatmeal Raisin Cookies" />
+              <h3>Oatmeal Raisin Cookies</h3>
+            </div>
+            <div class="recipe">
+              <img src="cookie3.jpeg" alt="Peanut Butter Cookies" />
+              <h3>Peanut Butter Cookies</h3>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div id="foot" class="foot-kookie">Kookie</div>
+        <div id="footer-item">
+          <ul style="text-align: center">
+            <li>&#169;2024 KOOKIE.</li>
+            <li>ALL RIGHTS RESERVED</li>
+            <li><a id="privacy" href=""> PRIVACY POLICY </a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
